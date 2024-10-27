@@ -1,0 +1,53 @@
+body {
+    color: white;
+    background: black;
+    margin: 2px;
+}
+
+header {
+    border-bottom: solid 2px rgb(38, 218, 134);
+    padding: 20px;
+    font-size: 48px;
+    color: rgb(38, 218, 134);
+}
+
+section{
+    background: rgb(71, 71, 71);
+    padding-bottom: 60px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 3%;
+}
+
+.em-alta{
+    padding-left: 5px;
+    font-size: 30px;
+    margin: 0px;
+    background: rgb(71, 71, 71);
+}
+
+img{
+    height: 200px;
+}
+.serie{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.lançamentos{
+    display: flax;
+    overflow-x: auto;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.lançamentos img{
+    opacity: o.5;
+}
